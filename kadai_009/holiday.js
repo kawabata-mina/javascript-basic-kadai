@@ -19,7 +19,7 @@ const holidays = [
 ];
 
 // forを使って祝日を順番に出力する
-for (let i = 0; i > holidays.length; i++ ) {
+for (let i = 0; i < holidays.length; i++ ) {
   console.log(holidays[i]);
 }
 
@@ -28,5 +28,4 @@ let index = 0;
 while (index !== holidays.length) {
   console.log(holidays[index])
   index++;
-  break;
 }
